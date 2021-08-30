@@ -1,0 +1,15 @@
+{
+  "version": "2.0.2",
+  "compilerOptions": {
+    "lib": ["es5", "es6"],
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./dist"
+  },
+  "exclude": ["node_modules", "dist"]
+}
